@@ -1,7 +1,7 @@
 /*
 	Practica 1 Dibujo de primitivas en 2D
 	Arturo Meza
-	13/08/2024
+	18/08/2024
 */
 
 #include<iostream>
