@@ -27,7 +27,6 @@ public:
 		try
 		{
 			// Open files
-			// Aqui los shaders se cargan desde el archivo 
 			vShaderFile.open(vertexPath);
 			fShaderFile.open(fragmentPath);
 			std::stringstream vShaderStream, fShaderStream;
