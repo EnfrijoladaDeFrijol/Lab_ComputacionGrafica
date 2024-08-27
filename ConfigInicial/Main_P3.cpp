@@ -126,9 +126,7 @@ int main() {
 	};
 		*/
 
-		//Para la vista en perspectiva
-
-		// use with Perspective Projection
+	// Usamos la vista en perspectiva
 	float vertices[] = {
 		-0.5f, -0.5f, 0.5f, 1.0f, 0.0f,0.0f,//Front
 		0.5f, -0.5f, 0.5f,  1.0f, 0.0f,0.0f,
@@ -256,16 +254,16 @@ int main() {
 
 		//Para agregar otro elemento 
 		model = glm::mat4(1);
+		model = glm::rotate(model, 0.5f, glm::vec3(0.5f, -0.1f, 0.0f));
 		model = glm::translate(model, glm::vec3(1.5f, 0.0f, 0.0f));
-		model = glm::rotate(model, 0.5f, glm::vec3(0.5f, -0.1f, 0.0f)); // use to compare orthographic and perspective projection
 		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glDrawArrays(GL_TRIANGLES, 0, 36);
 
 		// Segundo cubo
 		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
-		model = glm::rotate(model, 3.5f, glm::vec3(4.0f, 4.0f, 1.6f)); // use to compare orthographic and perspective projection
+		model = glm::rotate(model, 3.5f, glm::vec3(4.0f, 4.0f, 1.6f)); 
+		model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));		
 		model = glm::scale(model, glm::vec3(1.3f, 1.3f, 1.3f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glDrawArrays(GL_TRIANGLES, 0, 36);
@@ -273,7 +271,7 @@ int main() {
 		// Tercer cubo
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(8.0f, 0.0f, 0.0f));
-		model = glm::rotate(model, 5.0f, glm::vec3(0.5f, -2.1f, 5.0f)); // use to compare orthographic and perspective projection
+		model = glm::rotate(model, 5.0f, glm::vec3(0.5f, -2.1f, 5.0f)); 
 		model = glm::scale(model, glm::vec3(1.2f, 1.2f, 1.2f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glDrawArrays(GL_TRIANGLES, 0, 36);
@@ -281,7 +279,7 @@ int main() {
 		// Cuarto cubo
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(6.0f, 0.0f, 0.0f));
-		model = glm::rotate(model, 2.5f, glm::vec3(1.0f, 2.0f, 0.9f)); // use to compare orthographic and perspective projection
+		model = glm::rotate(model, 2.5f, glm::vec3(1.0f, 2.0f, 0.9f)); 
 		model = glm::scale(model, glm::vec3(1.1f, 1.1f, 1.1f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glDrawArrays(GL_TRIANGLES, 0, 36);
