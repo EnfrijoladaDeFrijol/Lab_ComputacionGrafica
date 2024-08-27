@@ -1,5 +1,6 @@
 /*
 	Luis Arturo Meza Sanchez
+	Fecha de entrega: 27 de Agosto de 2024
 */
 
 #include<iostream>
