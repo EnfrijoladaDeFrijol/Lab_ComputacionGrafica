@@ -16,7 +16,7 @@ Modelo estilo boxel art usando el cubo como primitiva básica.
 <br>
 <img width="305px" src="img\pract3exm.png"></img>
 
-## Práctica 3: Modelado Jerarquico
+## Práctica 4: Modelado Jerarquico
 Se realizó una mano tipo humanoide con uso de jerarquias para el movimiento.
 <br>
 <img width="305px" src="img\pract4exm.png"></img>
