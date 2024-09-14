@@ -20,3 +20,8 @@ Modelo estilo boxel art usando el cubo como primitiva básica.
 Se realizó una mano tipo humanoide con uso de jerarquias para el movimiento.
 <br>
 <img width="305px" src="img\pract4exm.png"></img>
+
+## Práctica 5: Carga de modelos
+Se importaron varios modelos.
+<br>
+<img width="305px" src="img\pract5exm.png"></img>
