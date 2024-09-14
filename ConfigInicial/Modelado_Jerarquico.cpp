@@ -409,7 +409,7 @@ int main() {
 	// ------------------------ Pulgarb --------------------------------
 	if (glfwGetKey(window, GLFW_KEY_O) == GLFW_PRESS){
 		if (30.0f > pulgarb)
-			pulgarb += 0.28f;
+			pulgarb += 0.28f; 
 	}
 	if (glfwGetKey(window, GLFW_KEY_L) == GLFW_PRESS && 0.0f < pulgarb)
 		pulgarb -= 0.28f;
