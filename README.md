@@ -25,3 +25,8 @@ Se realizó una mano tipo humanoide con uso de jerarquias para el movimiento.
 Se importaron varios modelos.
 <br>
 <img width="305px" src="img\pract5exm.png"></img>
+
+## Práctica 6: Texturizado
+Se utilizó una imagen para poder crear un modleo.
+<br>
+<img width="305px" src="img\pract6exm.png"></img>
